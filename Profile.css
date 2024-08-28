@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    background-color: blanchedalmond;
+}
+.boxa{
+    display:flex;
+}
+.col-40 
+{
+    width: 40%;
+}
+.col-40 h2{
+    margin-top: 80px;
+    margin-left: 20px;
+}
+.col-60
+{
+    width: 60%;
+    float: right;
+}
+.col-60 img
+{
+    float: right;
+    border-radius: 200px 200px ;
+    margin: 20px 20px;
+}
+.boxb h3
+{
+    text-align: center;
+    margin-left: 20px;
+}
+.boxb p{
+    margin-left: 20px;
+}
+.boxc h3{
+    text-align: center;
+    margin-left: 20px;
+}
+.boxc p{
+    margin-left: 20px;
+}
+.boxd h3{
+    text-align: center;
+    margin-left: 20px;
+}
+.boxd p{
+    margin-left: 20px;
+}
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+button{
+    margin-left:600px;
+    margin-bottom: 100px;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+    
